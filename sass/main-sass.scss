@@ -15,29 +15,22 @@ section.slideshow-container {
 }
 
 #pictures {
-  margin-top: 445px;
-  }
+  margin-top: 825px;
+}
 
 nav {
   width: 50%;
-
   ul {
-    display: flex;
-    justify-content: space-around;
-    display: relative;
-    margin: auto;
-    list-style: none;
   }
-
   li {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
   }
 
   a {
-    cursor: pointer;
-    margin: auto;
-    text-align: center;
-    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: yellow;
   }
 }
 

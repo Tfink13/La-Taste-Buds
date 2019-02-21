@@ -11,27 +11,17 @@ section.slideshow-container div.mySlides img.simg {
 }
 
 #pictures {
-  margin-top: 445px;
+  margin-top: 825px;
 }
 
 nav {
   width: 50%;
 }
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  display: relative;
-  margin: auto;
-  list-style: none;
-}
 nav li {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
-nav a {
-  cursor: pointer;
-  margin: auto;
-  text-align: center;
-  text-decoration: none;
+nav a:hover {
+  background-color: yellow;
 }
 
 span {
