@@ -1,0 +1,82 @@
+html {
+  background: black;
+}
+
+section.slideshow-container {
+  div.mySlides {
+    img.simg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0.7;
+      width: 100%;
+    }
+  }
+}
+
+#pictures {
+  margin-top: 445px;
+  }
+
+nav {
+  width: 50%;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    display: relative;
+    margin: auto;
+    list-style: none;
+  }
+
+  li {
+    border-bottom: 1px solid black;
+  }
+
+  a {
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ai1 {
+  width: 100px;
+}
+/* Next & previous buttons */
+.next,
+.prev {
+  cursor: pointer;
+  position: relative;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .next,
+  .prev,
+  .text {
+    font-size: 11px;
+  }
+}
+/*# sourceMappingURL=main-sass.css.map */
